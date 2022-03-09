@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">RH OLINE</string>
+    <string name="cabec">Holerite</string>
+    <string name="desc">Descontos</string>
+    <string name="salarioB">Salario Bruto:</string>
+    <string name="nDependentes">Nº Depedentes:</string>
+    <string name="tPlano"> Tipo Plano de saúde:</string>
+    <string name="vT">Vale Transporte: </string>
+    <string name="vA">Vale Alimentação:</string>
+    <string name="vR">Vale Refeição :</string>
+
+    <string name="tpStandart">Standart </string>
+    <string name="tpBasico">Basico </string>
+    <string name="tpSuper">Super</string>
+    <string name="tpMaster">Master</string>
+    <string name="saLiq">Salario Liquído:</string>
+    <string name="saBrut">Salario Bruto:</string>
+    <string name="valida_sB">Informe o Salário</string>
+    <string name="valida_nome">Informe seu nome</string>
+    <string name="valida_nDep">Informe quantidade de Dependentes</string>
+    <string name="valida_tpS">Informe tipo de Plano de Saúde</string>
+    <string name="valida_vT">Informe se possui vale Transporte</string>
+    <string name="telaInicial">Seja Bem vindo!!!!!!</string>
+    <string name="nomeFunc">Insira seu nome:</string>
+
+    <string-array name="planos">
+        <item>Standard</item>
+        <item>Básico</item>
+        <item>Super</item>
+        <item>Master</item>
+    </string-array>
+
+
+    <string name="valida_peso">Informe o Peso</string>
+    <string name="valida_altura">Informe a Altura</string>
+    <string name="calcular">Calcular</string>
+    <string name="voltar">Voltar</string>
+    <string name="entrar">Entrar</string>
+</resources>

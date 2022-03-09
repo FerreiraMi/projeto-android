@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/prin"
+
+    android:orientation="vertical"
+    tools:context=".TelaInicialActivity">
+
+
+    <TextView
+        style="@style/estilo_view"
+        android:layout_width="match_parent"
+        android:layout_height="234dp"
+        android:text="@string/telaInicial"
+        android:textAlignment="center"
+        android:textColor="@color/rosa"
+        android:textSize="25dp" />
+
+    <TextView
+        style="@style/estilo_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_style"
+        android:text="@string/nomeFunc"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/func"
+        style="@style/estilo_rh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+
+            android:id="@+id/bt_entrar"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/entrar"
+
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

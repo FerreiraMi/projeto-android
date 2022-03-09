@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backg">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+
+
+            style="@style/estilo_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/border_style"
+            android:drawableBottom="@android:drawable/ic_menu_save"
+            android:text="@string/cabec"
+            android:textAlignment="center"
+            android:textColor="@color/rosa"
+            android:textSize="20dp"
+
+            />
+
+
+        <TextView
+            style="@style/estilo_view"
+            android:background="@drawable/border_style"
+            android:text="@string/salarioB"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/sB"
+            style="@style/estilo_rh"
+            android:inputType="number"
+            android:visibility="visible" />
+
+
+        <TextView
+            style="@style/estilo_view"
+            android:background="@drawable/border_style"
+            android:text="@string/nDependentes"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/nDep"
+            style="@style/estilo_rh"
+            android:inputType="number|textFilter" />
+
+
+        <TextView
+            style="@style/estilo_view"
+            android:background="@drawable/border_style"
+            android:text="@string/tPlano"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <Spinner
+            android:id="@+id/spinnerPsaude"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:spinnerMode="dropdown">
+
+        </Spinner>
+
+
+        <TextView
+            style="@style/estilo_view"
+            android:background="@drawable/border_style"
+            android:text="@string/vT"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+        <RadioGroup
+            android:id="@+id/bt_radio0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/bt_sim0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sim" />
+
+            <RadioButton
+                android:id="@+id/bt_nao0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:text="Não" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/estilo_view"
+            android:background="@drawable/border_style"
+            android:text="@string/vA"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+
+        <RadioGroup
+            android:id="@+id/bt_radio1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/bt_sim1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sim" />
+
+
+            <RadioButton
+                android:id="@+id/bt_nao1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Não" />
+        </RadioGroup>
+
+
+        <TextView
+            style="@style/estilo_view"
+            android:background="@drawable/border_style"
+            android:text="@string/vR"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <RadioGroup
+            android:id="@+id/bt_radio2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/bt_sim2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sim" />
+
+            <RadioButton
+                android:id="@+id/bt_nao2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Não" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/bt_calcular"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="@string/calcular"
+
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
